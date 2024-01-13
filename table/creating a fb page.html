@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        .buttonclass {
+            background-color: blue;
+            color: white;
+            text-align: center;
+            width: 100%;
+            border-radius: 10px;
+        }
+        *{
+            box-sizing: border-box;
+        }
+        td{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="color: blue;">facebook</h1>
+    <table border="1">
+        <tr>
+            <th colspan="3">Create a new account</th>
+        </tr>
+
+        <tr>
+            <td colspan="3">its quick and easy</td>
+        </tr>
+
+        <tr>
+            <td colspan="2"><input placeholder="first name" type="text"></td>
+            <td ><input placeholder="last name" type="text"></td>
+        </tr>
+        <tr><td colspan="3"><input style="width: 100%;" placeholder="mobile number or e mail id" type="text"></td></tr>
+        <tr><th colspan="3">date of birth</th></tr>
+        <tr><td colspan="3"><input type="datetime-local" style="width: 100;"></td></tr>
+        <tr><th colspan="3">Gender</th></tr>
+        <tr><td><label> female <input type="radio" name="Gender"></label></td>
+        <td><label> male <input type="radio" name="Gender"></label></td>
+    <td><label> custome <input type="radio" name="Gender"></label></td></tr>
+    <tr><td colspan="3"><input type="button" value="sing up"></td></tr>
+
+    </table>
+
+
+</body>
+
+</html>
